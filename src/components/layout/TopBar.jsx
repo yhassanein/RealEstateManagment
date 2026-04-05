@@ -5,7 +5,7 @@ export default function TopBar() {
 
   return (
     <header className="flex h-14 items-center justify-between border-b border-border bg-white/75 px-6 backdrop-blur-md">
-      <p className="text-xl font-bold uppercase tracking-[0.2em] text-muted-foreground">
+      <p className="hidden md:block text-xl font-bold uppercase tracking-[0.2em] text-muted-foreground">
         H&H Real Estate
       </p>
 

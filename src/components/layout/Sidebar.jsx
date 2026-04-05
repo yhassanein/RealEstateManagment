@@ -21,7 +21,7 @@ export default function Sidebar() {
   const links = profile?.role === "owner" ? ownerLinks : tenantLinks;
 
   return (
-    <aside className="flex h-full w-20 flex-col border-r border-border bg-white/85 backdrop-blur-md">
+    <aside className="hidden md:flex h-full w-20 flex-col border-r border-border bg-white/85 backdrop-blur-md">
       {/* Brand mark */}
       <div className="flex h-14 w-full items-center justify-center border-b border-border shrink-0">
         <div className="flex h-12 w-15 items-center justify-center bg-amber-300">
